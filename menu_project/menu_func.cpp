@@ -40,7 +40,7 @@ const ypa::MenuItem* ypa::divide(const MenuItem* current) {
 	std::cout << current->title << std::endl << std::endl;
 	return current->parent;
 }
-const ypa::MenuItem* ypa::diff_eq(const MenuItem* current) {
+const ypa::MenuItem* ypa::diff(const MenuItem* current) {
 	std::cout << current->title << std::endl << std::endl;
 	return current->parent;
 }
@@ -52,4 +52,5 @@ const ypa::MenuItem* ypa::integral(const MenuItem* current) {
 const ypa::MenuItem* ypa::go_back(const MenuItem* current) {
 	std::cout << current->title << std::endl << std::endl;
 	return current->parent->parent;
+
 }
